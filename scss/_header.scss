@@ -1,0 +1,54 @@
+header {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 18px;
+
+    .head-other {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 50px;
+
+        nav {
+            display: flex;
+            gap: 50px;
+
+            a {
+                color: rgb(15, 13, 13);
+                text-decoration: none;
+                line-height: 150%;
+                font-family: sans-serif;
+
+                &:hover {
+                    color: #004639;
+                }
+            }
+        }
+
+        .head-icons {
+            display: flex;
+            gap: 16px;
+
+            a {
+                img {
+                    display: flex;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1300px) {
+    header {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
